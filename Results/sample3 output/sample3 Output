@@ -1,0 +1,54 @@
+==============================================================================
+DOTA 2 HERO RECOMMENDATION SYSTEM — RESULTS
+==============================================================================
+
+Execution Date: 2025-12-05 02:32:18.175706
+
+DATA LOADING
+------------------------------------------------------------------------------
+Rows Loaded: 2820604
+[EXECUTION TIME] load_data: 13.537 sec
+
+META STATISTICS
+------------------------------------------------------------------------------
+Meta Heroes: 125
+[EXECUTION TIME] compute_meta: 2.545 sec
+
+SYNERGY MATRIX
+------------------------------------------------------------------------------
+Synergy Pairs: 7635
+[EXECUTION TIME] compute_synergy: 0.129 sec
+
+COUNTER MATRIX
+------------------------------------------------------------------------------
+Counter Pairs: 15282
+[EXECUTION TIME] compute_counters: 0.081 sec
+
+TOP 3 RECOMMENDATIONS
+------------------------------------------------------------------------------
+Radiant Picks: [74, 12]
+Dire Picks: [102, 45]
+
+Hero 13 (Score: 502.4942)
+  • Synergy: 808.25
+  • Counter: 447.75
+  • Meta:    0.4708
+
+Hero 129 (Score: 453.7899)
+  • Synergy: 727.5
+  • Counter: 406.75
+  • Meta:    0.4497
+
+Hero 106 (Score: 452.3939)
+  • Synergy: 694.25
+  • Counter: 436.5
+  • Meta:    0.4697
+
+[EXECUTION TIME] recommend_top3: 1084.568 sec
+
+PERFORMANCE SUMMARY
+------------------------------------------------------------------------------
+Heroes Analyzed: 125
+Synergy Pairs:   7635
+Counter Pairs:   15282
+[EXECUTION TIME] Total Pipeline Time: 1124.366 sec

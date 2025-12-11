@@ -1,0 +1,71 @@
+================================================================================
+DOTA 2 EARLY GAME PREDICTION - RESULTS
+================================================================================
+
+Execution Date: 2025-12-03 04:07:28
+Input Path: gs://cs777-termpaper/merged
+Output Path: gs://cs777-termpaper/output/sample2
+Total Execution Time: 556.9 seconds
+
+================================================================================
+DATA LOADING
+================================================================================
+Loading Time: 76.44 sec
+Total Rows Loaded: 11,068,988
+
+================================================================================
+FEATURE ENGINEERING
+================================================================================
+Processing Time: 20.21 sec
+Features Created: 21
+Final Dataset Rows: 123,692
+
+================================================================================
+MODEL RESULTS
+================================================================================
+
+Logistic Regression:
+  Training Time: 28.81 sec
+  AUC-ROC: 0.7155
+  Accuracy: 0.6507
+  F1 Score: 0.6507
+
+Random Forest:
+  Training Time: 70.26 sec
+  AUC-ROC: 0.7151
+  Accuracy: 0.6512
+  F1 Score: 0.6512
+
+Gradient Boosting:
+  Training Time: 280.17 sec
+  AUC-ROC: 0.7114
+  Accuracy: 0.6489
+  F1 Score: 0.6488
+
+================================================================================
+PERFORMANCE SUMMARY
+================================================================================
+Best Model: Logistic Regression
+Best AUC: 0.7155
+Best Accuracy: 0.6507
+
+Draft-Only Baseline:
+  Accuracy: 0.5083
+  AUC: 0.503
+
+Improvement with Early Game Features:
+  Accuracy Gain: +14.24%
+  AUC Gain: +0.2125
+
+Performance Metrics:
+  Total Execution Time: 556.9 sec
+  Models Trained: 3
+  Features Used: 21
+
+================================================================================
+KEY FINDINGS
+================================================================================
+ Early game features improve prediction by 14.24%
+ Gold and experience advantages are strong predictors
+ Logistic Regression performs best with 0.7155 AUC
+ Model provides actionable recommendations for teams
